@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.play.web.mbr.MemberMapper">
+  <select id="get" resultType="com.hyungjun.demo.mbr">
+    SELECT *
+    FROM member
+    <where>
+    	<if test=" member_id != null and member_id != '' ">
+    		MEMBER_ID LIKE #{member_id}
+    	</if>
+    	<if test=" password != null and password != '' ">
+    		AND PASSWORD LIKE #{password}
+    	</if>
+    </where>
+  </select>

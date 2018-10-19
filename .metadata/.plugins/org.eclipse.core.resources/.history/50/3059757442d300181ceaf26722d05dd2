@@ -1,0 +1,21 @@
+package com.hyungjun.demo.cmm;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.hyungjun.demo.mbr.MemberService;
+
+@Controller
+public class HomeCtrl {
+	@AutoWired MemberService service;
+	@GetMapping
+	@RequestMapping("/")
+	public String home(Model model) {
+		System.out.println("----- 1 ------");
+		
+		return "";
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.hyungjun.demo.mbr;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hyungjun.demo.mapper.MemberMapper;
+
+@Service
+public class MemberServiceImpl implements MemberService {
+	@Autowired MemberMapper mapper;
+
+	@Override
+	public Integer count() {
+		return mapper.count();
+	}
+}

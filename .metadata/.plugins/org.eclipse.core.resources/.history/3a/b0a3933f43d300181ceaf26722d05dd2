@@ -1,0 +1,8 @@
+package com.hyungjun.demo.mapper;
+
+import com.hyungjun.demo.mbr.Member;
+@Repository
+
+public interface MemberMapper {
+	public Integer count(Member p);
+}

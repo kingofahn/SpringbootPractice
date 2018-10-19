@@ -1,0 +1,6 @@
+package com.hyungjun.demo.mapper;
+
+public interface MemberMapper {
+	pubilc String get() {}
+
+}

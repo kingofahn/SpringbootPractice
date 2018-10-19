@@ -1,0 +1,11 @@
+package com.hyungjun.demo.mbr;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Service
+public class MemberServiceImpl implements MemberService {
+	@Autowired MemberMapper mapper
+	
+	
+
+}

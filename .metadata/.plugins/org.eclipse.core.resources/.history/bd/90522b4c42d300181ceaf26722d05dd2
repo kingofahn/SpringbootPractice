@@ -1,0 +1,6 @@
+package com.hyungjun.demo.mbr;
+
+@Service
+public class MemberServiceImpl implements MemberService {
+
+}

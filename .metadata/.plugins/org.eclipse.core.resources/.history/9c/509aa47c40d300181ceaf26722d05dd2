@@ -1,0 +1,5 @@
+package com.hyungjun.demo.mapper;
+
+public class MemberMapper {
+
+}

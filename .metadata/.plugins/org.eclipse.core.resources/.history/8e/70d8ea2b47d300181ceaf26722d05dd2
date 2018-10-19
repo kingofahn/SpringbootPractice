@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.hyungjun.demo.mbr.MemberMapper">
+		<select id="count" resultType="int">
+			SELECT COUNT(*) FROM MEMBER
+		</select>
+</mapper>

@@ -1,0 +1,8 @@
+package com.hyungjun.demo.mbr;
+
+import org.springframework.stereotype.Component;
+
+@Mapper
+public interface MemberService {
+	public Integer count();
+}
