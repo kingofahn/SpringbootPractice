@@ -3,3 +3,11 @@
 1539913043595	Rename package 'com.hyung.demo.mbr'
 1539913215564	Rename type 'MemberController'
 1539916174636	Move file
+1539928000510	Move folder
+1539931119426	Rename resource 'PieChart.jsp'
+1539931758136	Move file
+1539931769425	Rename resource 'wordcloud.jsp'
+1539931776255	Rename resource 'ds.layout.cloud.jsp'
+1539931824069	Delete element
+1539931931694	Delete element
+1539932524584	Rename resource 'ds.layout.cloud.js'
